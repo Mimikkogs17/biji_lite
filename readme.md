@@ -13,10 +13,13 @@
 
 数据库见  `biji_lite.sql`
 
-# 启动
+## 启动
 
 1. 创建数据库
 2. 修改 `application.yml` 中的数据库密码
 3. 启动 Redis 服务
 4. 执行 `./gradlew bootRun` 或在 IDEA 中运行
 
+## 测试
+
+测试内容见`biji_lite接口调试.md`，由apifox调试生成报告
